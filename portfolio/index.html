@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>SF-Portfolio</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body >
+	<div class="preloader"><img class="preload_gif" src="img/preload.gif" alt=""></div>
+	<div id="my-page">
+		
+      	<div id="my-header">
+      		<header class="v-header wrapper">
+	      			<div class="fullscreen-video-wrap">
+		      			<div class="page-switcher">
+							<nav class="nav">
+								<ul>
+									<li><a href="#home" class="butt">Home</a></li>
+									<li><a href="#about_me" class="butt">About Me</a></li>
+									<li><a href="#portfolio" class="butt">Works</a></li>
+									<li><a href="#contact" class="butt">Contact</a></li>
+								</ul>
+							</nav>	
+						</div>
+	      		
+	      				<video  preload="auto" autoplay="true" loop="true">
+	      					<source src="img/beach-converted.mp4">
+	      					<source src="img/beach-converted.webm">	
+	      				</video>
+	      			</div>	
+	      			<div class="container">
+		      			<div class="brand" id="home">
+		      				<h1 class="name"><span class="first_name">Serhiy</span><span class="last_name">Fedorenko</span></h1>
+		      			
+			      			<div class="introducing">
+			      				<p class="intro_p">HI, </p>
+			      				<h2 class="intro_p intro_h2">I AM A MULTI-TALENTED <br> FRONT-END DEVELOPER</h2>
+			      				<p class="intro_p">KYIV, UKRAINE</p>
+			      			</div>
+		      			</div>
+	      			</div>
+	      		</header> 
+
+      	</div>
+    
+
+
+	    <div id="my-content">
+	      	<section>
+	      		<div class="container">
+	      			<div class="about" id="about_me">
+	      				<h2>About me</h2>
+	      				<div class="main_about">
+		      				<div class="about_img">
+		      					<img src="img/img2-min.png"  class="img-responsive" alt="device">
+		      				</div>
+		      				<div class="about_content">
+		      					<p class="about_content_p">I'm intrested in creating Websites. I build interactive websites that run across platforms & devices. I absolutely love what I do and would love to work with you on any projects that I might be suited for!</p>
+		      					<p class="about_content_p">I have excellent level hand-coding in CSS and HTML, have strong knowledge of responsive web design approaches and mobile solutions and familiar with JavaScript / jQuery.</p>
+		      					<p class="about_content_p"> I am a responsible person and can deliver results within planned deadlines. </p>
+		      				</div>
+		      				
+						</div>
+						<div class="my_skills">
+							<h2 class="skills_h2">Technical skills: 
+								<span class="skills_span"></span>
+							</h2>
+						</div>
+						<div class="cv">
+							<p class="cv_p">Let's сreate amazing Websites together,  
+		      				<a href="https://docs.google.com/document/d/1cWzy2Ki179oxiF28wVSD0haM48-G2zcFITYPiwPV8vk/edit?usp=sharing" class="cv_a">see my CV</a></p>
+		      			</div>
+	      			</div>
+	      		</div>
+	      	</section>
+	      	<section class="works_bg">
+	      		<div class="container">
+	      			<div class="works" id="portfolio">
+	      				<h2 class="works_h2">My works</h2>
+	      					<div class="directions">
+								  	<a class="prev" id="prev"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+									<a class="next" id="next"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+								</div>
+							<div class="sl_stack">
+							  	<div class="stack">
+								    <div class="item">
+								      <button class="stack_btn" data-remodal-target="modal1"><img src="img/david-min.jpg"  class="img-responsive" alt="david"></button><!--Image size 360x260-->
+								    </div>
+								    <div class="item">
+								      <button class="stack_btn" data-remodal-target="modal2"><img src="img/nakitel-min.jpg"  class="img-responsive" alt="nakitel"></button>
+								    </div>
+								    <div class="item">
+								      <button class="stack_btn" data-remodal-target="modal3"><img src="img/star_clothes-min.jpg"  class="img-responsive" alt="star clothes"></button>
+								    </div>
+							  	</div>
+							</div>
+	      			</div>
+	      		</div>
+	      	</section>
+<!--remodal-->
+	      	<div class="remodal modal1" data-remodal-id="modal1" data-remodal-options="hashTracking: false">
+			    <button data-remodal-action="close" class="remodal-close"></button>
+			    <img src="./img/david_full.jpg" alt="">
+			    <p>If you want to see the code, visit my <a href="https://github.com/fedorenkos/david">Github account</a></p>
+			    <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+			</div>
+
+			<div class="remodal modal2" data-remodal-id="modal2" data-remodal-options="hashTracking: false">
+			    <button data-remodal-action="close" class="remodal-close"></button>
+			    <img src="./img/nakitel_photo.jpg" alt="">
+			    <p>If you want to see the code, visit my <a href="https://github.com/fedorenkos/nakitel">Github account</a></p>
+			    <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+			</div>
+
+			<div class="remodal modal3" data-remodal-id="modal3" data-remodal-options="hashTracking: false">
+			    <button data-remodal-action="close" class="remodal-close"></button>
+			    <img src="./img/omnicore_photo.jpg" alt="">
+			    <p>If you want to see the code, visit my <a href="https://github.com/fedorenkos/star_clothes">Github account</a></p>
+			    <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+			</div>
+<!--end remodal-->			
+
+</div>
+			
+	
+      	<div id="my-footer">
+      		<footer>
+      			<div class="main_footer" id="contact">
+      				<div class="container">
+      					<div class="footer">
+      						<h2>Contacts</h2>
+      						<h3 class="footer_h3">If you have some questions</h3>
+	      					<p class="footer_p">Get in touch with me</p>
+	      					<div class="footer_contacts">
+	      						
+	      						<div class="devices">
+	      							<div class="icons">
+	      								<i class="fa fa-envelope-o fa-3x fa_icons" aria-hidden="true"></i>
+	      							</div>
+	      							<a href="mailto:fedorenkos084@gmail.com">fedorenkos084@gmail.com</a>
+	      						</div>
+	      						<div class="devices">
+	      							<div class="icons">
+	      								<i class="fa fa-mobile fa-3x fa_icons" aria-hidden="true"></i>
+	      							</div>
+	      							<a href="tel:+380671873001">+380671873001</a>
+	      						</div>
+	      						<div class="devices">
+	      							<div class="icons">
+	      								<i class="fa fa-skype fa-3x fa_icons" aria-hidden="true"></i>
+	      							</div>
+	      							<a href="skype:serhii.fedorenko" target="_blank">serhii.fedorenko</a>
+	      						</div>
+	      						<div class="devices">
+	      							<div class="icons">
+	      								<i class="fa fa-facebook fa-3x fa_icons" aria-hidden="true"></i>
+	      							</div>	
+	      							<a href="https://www.facebook.com/serhiy.fedorenko.5" target="_blank">Facebook</a>
+	      						</div>
+	      						<div class="devices">
+	      							<div class="icons">
+	      								<i class="fa fa-linkedin fa-3x fa_icons" aria-hidden="true"></i>
+	      							</div>
+	      							<a href="https://www.linkedin.com/in/serhiy-fedorenko/" target="_blank">Linkedin</a>
+	      						</div>
+	      						<div class="devices">
+	      							<div class="icons">
+	      								<i class="fa fa-github fa-3x fa_icons" aria-hidden="true"></i>
+	      							</div>
+	      							<a href="https://github.com/fedorenkos" target="_blank">Github</a>
+	      						</div>
+	      					</div>
+	      					<div class="copyright">
+	      						<p class="copy_p">&#169; Designed & developed by <strong>Serhiy Fedorenko</strong></p>
+	      					</div>
+						</div>
+      				</div>
+      			</div>
+      		</footer>
+      	</div>
+
+  </div><!--my-page main-->
+    
+
+	
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
